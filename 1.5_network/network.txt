@@ -1,0 +1,3 @@
+docker update internet_parser --restart=always
+docker network disconnect none internet_parser
+docker network connect bridge internet_parser

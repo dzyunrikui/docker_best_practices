@@ -1,0 +1,3 @@
+docker run --mount src=/etc/systemd/system/default.target.wants/, dst=/tmp/target, type=bind --name=task7 -d -it --restart=always ubuntu:20.04 /bin/bash
+docker exec -it task /bin/bash
+cp /etc/systemd/system/default.target.wants/e2scrub_reap.service /tmp/temp

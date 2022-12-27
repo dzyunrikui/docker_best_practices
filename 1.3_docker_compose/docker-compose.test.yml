@@ -1,0 +1,8 @@
+---
+version: "2.1"
+services:
+  db:
+    logging:
+      driver: none
+  app:
+    command: python manage.py test

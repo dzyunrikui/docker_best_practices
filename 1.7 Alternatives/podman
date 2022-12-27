@@ -1,0 +1,6 @@
+podman ps
+podman stop nice_wiles
+podman ps -a
+podman rm e86a4fd1143d
+podman images
+podman rmi 295c7be07902
