@@ -1049,7 +1049,7 @@ alertRelabelConfigs: {}
   # alert_relabel_configs:
   # - source_labels: [dc]
   #   regex: (.+)\d+
-  #   target_label: dc
+     target_label: dc
 
 networkPolicy:
   ## Enable creation of NetworkPolicy resources.
